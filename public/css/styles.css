@@ -18,7 +18,7 @@ width: 100%; }
 header img{float:left;margin:5px 0 0 14px; height:100px; width:100px;}
 header h1{
      margin-left:10px;float:left;font-size:50px;line-height:50px;
-     color:red;
+     color:#E3170D;
      font-family:hotrod;}
 
 section {
@@ -44,12 +44,12 @@ section:nth-of-type(2){background:black;height:750px;}
 }
 
 #story-freext>div:nth-of-type(2) {
-    background: url(../img/ask2.png) 50% 0 no-repeat;
+    background: url(../img/test.png) 50% 0 no-repeat;
     background-size: 200px 200px;
     margin: 0;
     height: 750px;
     position:absolute;
-    top:0px;left:200px;
+    top:0px;left:250px;
     width:40%;
 }
 
@@ -59,16 +59,16 @@ section:nth-of-type(2){background:black;height:750px;}
     margin: 0;
     height: 750px;
     position:absolute;
-    top:75px;left:320px;
+    top:60px;left:370px;
     width:70%;
 }
 #story-freext>div:nth-of-type(4) {
-    background: url(../img/hack2.png) 50% 0 no-repeat;
+    background: url(../img/invest.png) 50% 0 no-repeat;
     background-size: 200px 200px;
     margin: 0;
     height: 750px;
     position:absolute;
-    top:125px;left:420px;
+    top:125px;left:470px;
     width:100%;
 }
 #bottle>div:nth-of-type(1){
@@ -108,31 +108,31 @@ margin: 0 auto;
 }
 
 #tracks>div:nth-of-type(2) {
-    background: url(../img/code2.png) 50% 0 no-repeat;
+    background: url(../img/hack2.png) 50% 0 no-repeat;
     background-size: 200px 200px;
     margin: 0;
     height: 750px;
     position:absolute;
-    top:0px;left:200px;
+    top:0px;left:250px;
     width:40%;
 }
 
 #tracks>div:nth-of-type(3) {
-    background: url(../img/gears2.png) 50% 0 no-repeat;
+    background: url(../img/network.png) 50% 0 no-repeat;
     background-size: 200px 200px;
     margin: 0;
     height: 750px;
     position:absolute;
-    top:50px;left:320px;
+    top:50px;left:370px;
     width:70%;
 }
 #tracks>div:nth-of-type(4) {
-    background: url(../img/mobile2.png) 50% 0 no-repeat;
+    background: url(../img/Dollar-sign.png) 50% 0 no-repeat;
     background-size: 200px 200px;
     margin: 0;
     height: 750px;
     position:absolute;
-    top:100px;left:420px;
+    top:100px;left:470px;
     width:100%;
 }
 #signup>div:nth-of-type(1) {
@@ -165,5 +165,13 @@ section article{position:absolute;top:100px;left:40px;width:300px;z-index:4;}
     float:center;
     width:100%;
     display:block; 
-    color:red;
+    color:#E3170D; 
+
+   text-shadow:
+       3px 3px #000,
+     -1px -1px #000,  
+      1px -1px #000,
+      -1px 1px #000,
+       1px 1px #000;
+
 }
