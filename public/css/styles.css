@@ -17,9 +17,14 @@ background-color: black;
 width: 100%; }
 header img{float:left;margin:5px 0 0 14px; height:100px; width:100px;}
 header h1{
-     margin-left:10px;float:left;font-size:50px;line-height:50px;
-     color:#E3170D;
-     font-family:hotrod;}
+margin-left: 10px;
+margin-top: 10px;
+float: left;
+font-size: 70px;
+line-height: 60px;
+color: #E3170D;
+font-family: hotrod;
+text-shadow: 1px 1px #555, -1px -1px #555, 1px -1px #555, -1px 1px #555, 1px 1px #555;}
 
 section {
     min-height: 750px;
